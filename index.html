@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mamika</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/jpg" href="./images/logo-icon.png">
+  <!--All fonts-->
+  <!--Lilita One-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <!--Roboto Slab-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="intro">
+      <div class="anim">
+        <span class="first">Mamika</span>
+        <span class="slide">
+          <span class="second">Creations</span>
+        </span>
+    </div>
+  </div>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="./index.html#logo_pic" class="logo-link"><img src="./images/logo.png" alt="Website Logo" id="logo_pic"></a>
+    </div>
+    <ul>
+      <li><a href="./index.html#about">About</a></li>
+      <li><a href="./products.html">Products</a></li>
+      <li><a href="./index.html#contact">Contact us</a></li>
+    </ul>
+  </nav>
+  <div class="All">
+    <section class="part-0">
+    <div class="start" id="start">
+      <div class="start-text">
+          <h3>Welcome to Mamika Creations</h3>
+          <h6>Bringing colour into spaces.</h6>
+          <blockquote>
+            "Every artist dips his brush in his own soul, and paints his own nature into his pictures." - Henry Ward Beecher
+          </blockquote>
+          <a href="https://instagram.com/mamika.creations?igshid=MzNlNGNkZWQ4Mg=="><img src="./images/instagram.png" alt="Instagram link"></a>
+          <a href="https://api.whatsapp.com/send?phone=254702490172&text=Hello!"><img src="./images/whatsapp.png" alt="Whatsapp contact"></a>
+          <a href="#" title="+254702490172"><img src="./images/phone.png" alt="Phone contact"></a>
+      </div>
+      <div class="slider-frame">
+        <div class="slide-images">
+          <div class="img-container">
+            <img src="./images/mamika/11.1.png" alt="Circle painting">
+          </div>
+          <div class="img-container">
+            <img src="./images/mamika/Y1.jpg" alt="Flower painting">
+          </div>
+          <div class="img-container">
+            <img src="./images/mamika/Y2.jpg" alt="Rainbow painting">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    </section>
+    <div class="spacer layer1"></div>
+    <section class="part-1" id="about">
+      <div class="about">
+        <h3>About us:</h3>
+        <p>Located in the vibrant city of Nairobi, Kenya, Mamika Creations is a passionate art group specializing in a diverse range of art forms, including acrylic painting, 
+          fluid art, abstract art, and much more. We find inspiration in the beauty of the world around us and channel it into captivating and unique artistic expressions.
+
+          Our talented artists bring life to canvas, whether it's rectangular or square, or even unconventional shapes like ellipses. We also explore the artistic 
+          possibilities beyond traditional formats, creating exquisite hand-painted flower vases in various shapes and sizes. Each piece is meticulously crafted, 
+          combining skill and creativity to produce stunning works of art.
+          
+          At Mamika Creations, we believe that art has the power to evoke emotions, inspire minds, and enrich lives. We pour our heart and soul into every stroke, 
+          striving to create captivating pieces that resonate with our viewers. Whether you're a seasoned art enthusiast or new to the world of artistic expression,
+           our collection offers something for everyone.
+          
+          In addition to our existing artwork, we welcome special orders to cater to your unique preferences and creative vision. Our dedicated team is committed 
+          to delivering personalized art experiences, ensuring that every client's vision is brought to life with exceptional craftsmanship and attention to detail.
+          
+          We invite you to explore our online gallery and discover the beauty and passion that defines Mamika Creations. Join us on this artistic journey, as we 
+          celebrate the power of creativity and artistry, one masterpiece at a time.
+          
+          </p>
+      </div>
+    </section>
+    <section class="part-2">
+      <div class="work">
+        <h3>Our Products:</h3>
+        <p>We have a wide range of products we can make or aare in inventory.</p>
+        <span>Below is a list of cartegories of products we create:</span>
+        <h5>Polygon canvas: Rectangles and Squares</h5>
+        <h6>Example:</h6>
+        <img src="./images/mamika/Y2.jpg" alt="rainbow painting" class="product-img">
+        <button class="product-btn"><a href="#" class="product-more">View more</a></button>
+        <h5>Ellipses canvas: Circles and ovals</h5>
+        <h6>Example:</h6>
+        <img src="./images/mamika/11.1.png" alt="circle painting" class="product-img">
+        <button class="product-btn"><a href="#" class="product-more">View more</a></button>
+        <h5>Vases</h5>
+        <h6>Example:</h6>
+        <img src="./images/mamika/17.jpg" alt="vase pic" class="product-img">
+        <button class="product-btn"><a href="#" class="product-more">View more</a></button>
+      </div>
+    </section>
+    <section class="contact-part">
+      <div class="contact" id="contact">
+        <h2 id="contact_head">Contact Us:</h2>
+        <p>For any orders contact us either through the Email contact box below or through the Whatsapp method, click the icon.
+          You can also Use the phone number provided below.
+        </p>
+        <form action="https://formspree.io/f/xwkdpejg" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Full Name" required>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required placeholder="Message"></textarea>
+        
+          <button type="submit">Send</button>
+          <button type="reset">Clear</button>
+        </form>
+        <div class="contact_icons">
+          <h5>Whatsapp:</h5>
+        <a href="https://api.whatsapp.com/send?phone=254702490172&text=Hello!"><img src="./images/whatsapp.png" alt="Whatsapp"></a>
+        <p>Phone Number: +254702490172</p>
+        </div>
+       </div>
+    </section>
+  </div>
+<script defer src="app.js"></script>
+</body>
+</html>
